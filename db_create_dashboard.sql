@@ -17,7 +17,7 @@
 CREATE FUNCTION dashboard.version_to_name(
     )
     RETURNS SETOF grafana.version_to_name
-LANGUAGE SQL SECURITY DEFINER
+LANGUAGE SQL SECURITY DEFINERsasdsad
 AS $$
     SELECT *
     FROM
